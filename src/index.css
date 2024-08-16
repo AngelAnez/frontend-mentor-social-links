@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: local("Inter-Bold"),
+    url("./fonts/static/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: local("Inter-Regular"),
+    url("./fonts/static/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: local("Inter-SemiBold"),
+    url("./fonts/static/Inter-SemiBold.ttf") format("truetype");
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Inter-Regular";
+}
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+  width: 360px;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  padding: 24px;
+}
+
+img {
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 12px;
+  font-weight: normal;
+  font-family: "Inter-SemiBold";
+}
+
+h2 {
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 28px;
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-family: "Inter-SemiBold";
+}
+
+p {
+  margin-bottom: 24px;
+  font-size: 0.9rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card-link {
+  background-color: hsl(0, 0%, 20%);
+  list-style: none;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: "Inter-SemiBold";
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: white;
+}
+
+.card-link:hover {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+  color: hsl(0, 0%, 8%);
+}
