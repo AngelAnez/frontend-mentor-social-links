@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![site-preview](image-1.png)
+![site-preview](site-preview.png)
 
 ### Built with
 
